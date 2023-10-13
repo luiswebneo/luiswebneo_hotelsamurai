@@ -1,0 +1,26 @@
+/* Configuraçaoes do arquivo*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;1,600;1,800;1,900&family=Oswald:wght@300;400;600;700&family=Ruda:wght@400;500;700;800;900&display=swap');
+@import './navbar.css';
+@import './buttons.css';
+@import './background.css';
+@import './inputs.css';
+@import './position.css';
+@import './colors.css';
+
+
+:root{
+    --bg-orange:        #F46A05;
+    --bg-orange-hover:  #D85F08;
+    --bg-black:         #000000;
+    --bg-marron-1:      #757575;
+    --bg-marron-1:      #F4F4F4;
+    --bg-white:         #FFFFFF;
+    --bg-yellow:        #FCB705;
+    --bg-roxo:          #E900BC;
+}
+html, body{
+    font-size: 16px;
+    width: 100%;
+    font-family: 'Ruda', sans-serif;
+    height: 100%;
+}
